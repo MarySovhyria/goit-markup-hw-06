@@ -376,15 +376,15 @@
       </div>
     <div class="inputs-footer">
       <p class="footer-social">Subscribe</p>
-      <div class="contact-with-customers">
+      <form class="contact-with-customers">
       <label>
       <input name="email" type="email" class="form-input" placeholder="E-mail">
       </label>
-      <button type="submit" class="button-footer"><p class="paragraph-button">Subscribe</p>
+      <button type="submit" class="button-footer"><span class="paragraph-button">Subscribe</span>
         <svg class="button-footer-icon" width="24" height="24">
         <use href="./images/icons.svg#plane"></use>
         </svg>
-      </button></div>
+      </button></form>
     </div>
     </div>
     </footer>
@@ -418,13 +418,13 @@
             <use href="./images/icons.svg#email"></use>
           </svg>
         </label>
-        <label class="input-modal">
+        <label class="input-modal-textarea">
           <span class="span-modal">Comment</span>
-          <textarea class="textarea" type="text" name="comment" placeholder="Text input" rows="6"></textarea>
+          <textarea class="textarea" name="comment" placeholder="Text input"></textarea>
         </label>
         <label class="checkbox-modal">
-          <input class="checkbox" type="checkbox" name="privacy-policy" placeholder="&nbsp;">
-          <span class="span-modal">I accept the terms and conditions of the <a href="">Privacy Policy</a></span>
+          <input class="checkbox" type="checkbox" name="privacy-policy">
+          <span class="span-modal">I accept the terms and conditions of the <a href="" class="link-modal">Privacy Policy</a></span>
         </label>
         <button type="submit" class="button-modal">Send</button>
       </div>
