@@ -479,7 +479,6 @@ margin-left: auto;
     max-width: 264px;
 }
 .footer-social {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -534,7 +533,6 @@ margin-left: auto;
     border-radius: 4px;
     height: 40px;
     width: 256px;
-    margin-right: 24px;
     padding-left: 16px;
 }
 .form-input::placeholder {
@@ -549,6 +547,9 @@ margin-left: auto;
   }
 .contact-with-customers {
     display: flex;
+}
+.label-input-footer {
+    margin-right: 24px;
 }
 .button-footer {
     display: flex;
@@ -605,8 +606,7 @@ margin-left: auto;
     transform: translate(-50%, -50%);
     top: 50%;
     width: 408px;
-    min-height: 576px;
-    padding: 72px 24px;
+    padding: 72px 24px 24px;
     padding-left: 24px;
     padding-right: 24px;
     background-color: var(--colo13);
@@ -698,6 +698,9 @@ margin-left: auto;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.privacy{
+    margin-bottom: 0;
 }
 .input {
     min-width: 360px;
